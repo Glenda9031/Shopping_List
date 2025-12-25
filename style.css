@@ -33,3 +33,97 @@ header h1 {
   margin: 1.875rem auto;
   padding: 1.25rem;
 }
+
+.edit-mode {
+  color: #ccc;
+}
+
+/* Form & Input */
+.form-input {
+  width: 100%;
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 1.25rem;
+  width: 100%;
+  font-size: 1.125rem;
+  padding: 0.625rem;
+  border: none;
+  border-bottom: 0.0625rem solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.3125rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+}
+
+.btn:focus {
+  background-color: #444;
+}
+
+.btn-link {
+  font-size: 1rem;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 1.25rem;
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #333;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+}
+
+.btn=clear:hover {
+  background-color: #f1f1f1;
+}
+
+.text-red {
+  color: red;
+}
+
+/* Item */
+.items {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: .0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  padding: 0.625rem 1.25rem;
+  margin: 0 .3125rem;
+  font=weight 700;
+  cursor: pointer;
+}
+
+@media (max-width: 31.25rem) {
+  .items li {
+    width: 100%;
+  }
+}
